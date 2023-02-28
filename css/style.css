@@ -1,0 +1,166 @@
+body {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #737272;
+    width: 100vw;
+    margin:0%;
+}
+
+#header {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: #d9d9d9;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#logo {
+    display: inline-block;
+    justify-content: horizontal;
+}
+
+nav {
+    display: inline-block;
+    text-transform: uppercase;
+    height: 15vh;
+    justify-content: horizontal;
+}
+
+#navbar li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display:grid;
+    grid-template-areas:
+    "title title"
+    "image description";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 90%;
+}
+
+h1 {
+    grid-area: title;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#imagen {
+    grid-area: image;
+}
+
+#portada {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+
+#intro {
+    grid-area: description;
+    width: 500px;
+    margin: 5px;
+    text-align: left;
+    font-size: 16px;
+    display:flex;
+    flex-direction: column;
+}
+
+.p {
+    align-items: center;
+}
+
+.sector {
+    display: block;
+}
+
+.sector div {
+    width: 800px;
+    text-align: left;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.sector div p {
+    display: inline-block;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.sector div ol {
+    display: inline-block;
+    width: 400px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+iframe {
+    margin: 15px;
+}
+
+form {
+    display: inline-block;
+    width: 400px;
+}
+
+form legend {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#info {
+    display: inline-block;
+    width: 500px;
+}
+
+#info ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #d9d9d9;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#copy {
+    font-size: 10px;
+    padding-left: 5%;
+    width: 45%;
+}
+
+#links {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-end;
+    padding-right: 5%;
+    width: 45%;
+}
+
+#links li {
+    list-style-type: none;
+    padding-left: 5%;
+}
